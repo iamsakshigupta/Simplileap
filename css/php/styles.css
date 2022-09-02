@@ -1,0 +1,815 @@
+.phpdev {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+}
+
+#navbar {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 1440px;
+  height: 5.438rem;
+  left: 0;
+  top: 0;
+  background: #FFFFFF;
+  box-shadow: 0 0.5rem 1.875rem 0.313rem rgba(255, 255, 255, 0.26);
+  /* backdrop-filter: blur(4px); */
+}
+
+.blackLogo {
+  position: absolute;
+  width: 10.625rem;
+  height: 4.438rem;
+  left: 6.75rem;
+  top: 0.875rem;
+  background: url(blackLogo.jpg);
+}
+
+.nav-home {
+  text-decoration: none;
+  position: absolute;
+  width: 2.625rem;
+  height: 1.188rem;
+  left: 20.813rem;
+  top: 2.125rem;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.188rem;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.nav-about {
+  text-decoration: none;
+  position: absolute;
+  width: 64px;
+  height: 19px;
+  left: 430px;
+  top: 34px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.nav-services {
+  text-decoration: none;
+  position: absolute;
+  width: 88px;
+  height: 19px;
+  left: 549px;
+  top: 34px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.nav-portfolio {
+  text-decoration: none;
+  position: absolute;
+  width: 62px;
+  height: 19px;
+  left: 692px;
+  top: 34px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.nav-contact {
+  text-decoration: none;
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  left: 809px;
+  top: 34px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.nav-login {
+  text-decoration: none;
+  position: absolute;
+  width: 38px;
+  height: 19px;
+  left: 940px;
+  top: 34px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.PhoneIcon {
+  position: absolute;
+  left: 82.85%;
+  right: 15.77%;
+  top: 40.64%;
+  /* bottom: 99.01%; */
+  /* border: 2px solid #000000; */
+}
+
+.nav-number {
+  text-decoration: none;
+  position: absolute;
+  width: 57px;
+  height: 19px;
+  left: 1213px;
+  top: 34px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.searchIcon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 1283px;
+  top: 36px;
+}
+
+.menuIcon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 1315px;
+  top: 36px;
+  background: url(menu.jpg);
+}
+
+.hero {
+  position: absolute;
+  width: 100%;
+  height: 596px;
+  left: 0px;
+  top: 89px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(php-hero-image.png);
+}
+
+.hero-title {
+  position: absolute;
+  width: 750px;
+  height: 87px;
+  left: 349px;
+  top: 334px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  color: #FFFFFF;
+}
+
+.hero-body {
+  position: absolute;
+  width: 307px;
+  height: 30px;
+  left: 566px;
+  top: 425px;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.php-body-image {
+  position: absolute;
+  width: 613px;
+  height: 546px;
+  left: 111px;
+  top: 793px;
+  background: url(php-body-image.png);
+  border-radius: 10px;
+}
+
+.php-body-title {
+  position: absolute;
+  width: 459px;
+  height: 147px;
+  left: 793px;
+  top: 911px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color: #000000;
+}
+
+.php-body-text {
+  position: absolute;
+  width: 455px;
+  height: 107px;
+  left: 797px;
+  top: 1065px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 140.69%;
+  /* or 34px */
+  color: #000000;
+}
+
+.view-button {
+  position: absolute;
+  width: 111px;
+  height: 27px;
+  left: 785px;
+  top: 1229px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 12px 41px 12px 41px;
+  border: 1px solid #4CB1A0;
+  border-radius: 10px;
+}
+
+.card1-title {
+  position: absolute;
+  width: 269px;
+  height: 49px;
+  left: 111px;
+  top: 1516px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.card1-body {
+  position: absolute;
+  width: 274px;
+  height: 68px;
+  left: 116px;
+  top: 1578px;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.card2-title {
+  position: absolute;
+  width: 197px;
+  height: 49px;
+  left: 559px;
+  top: 1516px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.card2-body {
+  position: absolute;
+  width: 274px;
+  height: 68px;
+  left: 559px;
+  top: 1578px;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.card3-title {
+  position: absolute;
+  width: 318px;
+  height: 49px;
+  left: 1006px;
+  top: 1516px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.card3-body {
+  position: absolute;
+  width: 274px;
+  height: 68px;
+  left: 1006px;
+  top: 1575px;
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.home-footer-bg {
+  position: absolute;
+  width: 100%;
+  height: 369px;
+  left: 0px;
+  top: 1820px;
+  background: #343333;
+}
+
+.home-footer-logo {
+  position: absolute;
+  width: 231px;
+  height: 131px;
+  left: 593px;
+  top: 1874px;
+  background: url(whitelogo.png);
+}
+
+.home-footer-contact {
+  position: absolute;
+  width: 131px;
+  height: 24px;
+  left: 361px;
+  top: 2036px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.home-footer-services {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 669px;
+  top: 2036px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.home-footer-company {
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  left: 952px;
+  top: 2036px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.home-footer-fb {
+  position: absolute;
+  width: 23.87px;
+  height: 24px;
+  left: 655.35px;
+  top: 2098px;
+  background: url(facebook.png);
+}
+
+.home-footer-insta {
+  position: absolute;
+  width: 23.87px;
+  height: 24px;
+  left: 688.17px;
+  top: 2098px;
+  background: url(instagram.png);
+}
+
+.home-footer-mail {
+  position: absolute;
+  width: 23.87px;
+  height: 24px;
+  left: 720.98px;
+  top: 2098px;
+  background: url(mail.png);
+}
+
+.home-footer-linkedin {
+  position: absolute;
+  width: 23.87px;
+  height: 24px;
+  left: 753.8px;
+  top: 2098px;
+  background: url(linkedin.png);
+}
+
+@media (max-width:1028px) {
+  .phpdev {
+    position: relative;
+    width: 390px;
+    height: 1841px;
+    background: #FFFFFF;
+  }
+
+  #navbar {
+    position: absolute;
+    width: 390px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px 5px rgba(255, 255, 255, 0.26);
+  }
+
+  .nav-home {
+    display: none;
+  }
+
+  .nav-about {
+    display: none;
+  }
+
+  .nav-services {
+    display: none;
+  }
+
+  .nav-portfolio {
+    display: none;
+  }
+
+  .nav-contact {
+    display: none;
+  }
+
+  .nav-login {
+    display: none;
+  }
+
+  .PhoneIcon {
+    display: none;
+  }
+
+  .nav-number {
+    display: none;
+  }
+
+  .searchIcon {
+    display: none;
+  }
+
+  .menuIcon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 323px;
+    top: 29px;
+    background: url(mobile-menu.png);
+  }
+
+  .blackLogo {
+    background: url(mobile-blackLogo.png);
+    position: absolute;
+    width: 149px;
+    height: 56px;
+    left: 35px;
+    top: 17px;
+  }
+
+  .hero {
+    position: absolute;
+    width: 390px;
+    height: 411px;
+    left: 0px;
+    top: 90px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(php-mobile-hero-image.png);
+  }
+
+  .hero-title {
+    position: absolute;
+    width: 293px;
+    height: 82px;
+    left: 48px;
+    top: 226px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .hero-body {
+    position: absolute;
+    width: 185px;
+    height: 18px;
+    left: 103px;
+    top: 308px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+  }
+
+  .php-body-image {
+    position: absolute;
+    width: 320px;
+    height: 183px;
+    left: 35px;
+    top: 571px;
+    background: url(php-mobile-body-image.png);
+    border-radius: 10px;
+  }
+
+  .php-body-title {
+    position: absolute;
+    width: 271px;
+    height: 90px;
+    left: 35px;
+    top: 782px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+  }
+
+  .php-body-text {
+    position: absolute;
+    width: 230px;
+    height: 106px;
+    left: 35px;
+    top: 872px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140.69%;
+    /* or 25px */
+    color: #000000;
+  }
+
+  .view-button {
+    position: absolute;
+    width: 78px;
+    height: 19px;
+    left: 35px;
+    top: 1018px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 10px 32px 11px 33px;
+    border: 1px solid #4CB1A0;
+    border-radius: 10px;
+  }
+
+  .card1-title {
+    position: absolute;
+    width: 180px;
+    height: 33px;
+    left: 35px;
+    top: 1116px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+  }
+
+  .card1-body {
+    position: absolute;
+    width: 139px;
+    height: 39px;
+    left: 35px;
+    top: 1157px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .card2-title {
+    position: absolute;
+    width: 132px;
+    height: 33px;
+    left: 35px;
+    top: 1237px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+  }
+
+  .card2-body {
+    position: absolute;
+    width: 132px;
+    height: 42px;
+    left: 35px;
+    top: 1278px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .card3-title {
+    position: absolute;
+    width: 208px;
+    height: 33px;
+    left: 35px;
+    top: 1361px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #000000;
+  }
+
+  .card3-body {
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 35px;
+    top: 1405px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .home-footer-bg {
+    position: absolute;
+    width: 390px;
+    height: 291px;
+    left: 0px;
+    top: 1550px;
+    background: #343333;
+  }
+
+  .home-footer-logo {
+    position: absolute;
+    width: 149px;
+    height: 56px;
+    left: 104px;
+    top: 1606px;
+    background: url(mobile-whitelogo.png);
+  }
+
+  .home-footer-contact {
+    position: absolute;
+    width: 74px;
+    height: 14px;
+    left: 156px;
+    top: 1669px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .home-footer-services {
+    position: absolute;
+    width: 57px;
+    height: 14px;
+    left: 165px;
+    top: 1699px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .home-footer-company {
+    position: absolute;
+    width: 65px;
+    height: 14px;
+    left: 161px;
+    top: 1729px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .home-footer-fb {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 136px;
+    top: 1766px;
+    background: url(mobile-facebook.png);
+  }
+
+  .home-footer-insta {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 168px;
+    top: 1766px;
+    background: url(mobile-instagram.png);
+  }
+
+  .home-footer-mail {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 200px;
+    top: 1766px;
+    background: url(mobile-mail.png);
+  }
+
+  .home-footer-linkedin {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 232px;
+    top: 1766px;
+    background: url(mobile-linkedin.png);
+  }
+}
